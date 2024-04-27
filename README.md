@@ -14,6 +14,109 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `DOCUMENTAION`
+There are five page in this Single page application
+
+1.Home page
+2.about page
+3.Contact page
+4.resume page
+5.Portfolio page
+
+we can navegate to any page without redirecting to another window.
+
+In portfolio page i have taken th github api to display the reposity of the user(myself)
+
+The Dependcies i have used are
+
+"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emailjs/browser": "^4.3.3",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.6.8",
+    "bootstrap5": "^1.1.9",
+    "date-fns": "^3.6.0",
+    "gsap-trial": "^3.12.5",
+    "loaders.css": "^0.1.2",
+    "octokit": "^3.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
+    "react-leaflet": "^4.2.1",
+    "react-loaders": "^3.0.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.75.0",
+    "web-vitals": "^2.1.4"
+
+    we can download the dependices by using the command
+    "npm i 'dependency-name' "
+
+
+    Software Developer Portfolio Website
+Purpose
+The purpose of this application is to create a personalized and dynamic portfolio website for showcasing my coding skills, projects, experiences, and professional background as a software developer. The website serves as a platform to demonstrate proficiency in various technologies, communicate with potential employers or collaborators, and provide a comprehensive overview of my work.
+
+How to Contribute
+Contributions to the development of this portfolio website are welcome. To contribute, follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix: git checkout -b feature/new-feature or git checkout -b bugfix/issue-description.
+Make your changes and commit them: git commit -m "Description of changes".
+Push to the branch: git push origin feature/new-feature.
+Submit a pull request detailing the changes made.
+Features
+Home page with a hero section and introduction.
+About page displaying personal information and a brief introduction.
+Resume page showcasing education, skills, and professional experience.
+Portfolio page dynamically fetching and displaying GitHub repositories.
+Navigation menu for easy access to different sections.
+Responsive design for seamless viewing across devices.
+
+
+Dependencies
+This project uses the following dependencies:
+
+React: JavaScript library for building user interfaces.
+React Router: Declarative routing for React applications.
+Axios: Promise-based HTTP client for making requests to APIs.
+To install dependencies, run npm install in the project directory.
+
+Application Architecture
+
+
+The application follows a single-page application (SPA) architecture, built using React.js. It consists of multiple components such as Header, Footer, and individual pages (Home, About, Resume, Portfolio). Routing between pages is handled using React Router for client-side navigation. Data fetching from the GitHub API is managed through utility functions in the utils directory.
+
+
+software-portfolio/
+├── public/
+├── node_modules
+├── src/
+│   ├── components/
+│   │   ├── About/
+│   │   ├── Contact/
+│   │   └── ...
+│   ├── utils/
+│   │   └── githubApi.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+├── package-lock.json
+└── .prettierrc
+└── LICENSE.txt
+
+
+Reporting Issues
+
+If you encounter any issues or bugs while using the application, please report them by opening a new issue on the GitHub repository. Include detailed information about the problem, steps to reproduce it, and any relevant screenshots or error messages.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
