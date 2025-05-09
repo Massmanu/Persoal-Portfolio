@@ -1,7 +1,1 @@
-youtube api = AIzaSyAPEWO483cncsRKPXSfXD9Ye3kgs3XL3lI
 
-UCS2m4WDXYmfGGC9C4hayKug   ----id
-
-UUS2m4WDXYmfGGC9C4hayKug    ----u id
-
-https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=UUS2m4WDXYmfGGC9C4hayKug&key=AIzaSyAPEWO483cncsRKPXSfXD9Ye3kgs3XL3lI
